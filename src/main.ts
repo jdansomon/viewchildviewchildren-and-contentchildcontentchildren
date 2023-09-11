@@ -10,7 +10,7 @@ import { ChildComponent } from './child/child.component';
   imports: [CommonModule, ChildComponent],
   template: `
     <h1>Hello from {{ name }}!</h1>
-    <h2>{{title}}</h1>
+    <h2>{{title}}</h2>
     <p> current count is {{child.count}} </p>
     <button (click)="increment()">Increment</button>
     <button (click)="decrement()">decrement</button>
